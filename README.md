@@ -1,1 +1,10 @@
-# Cybersecurity-with-python
+- Created an algorithm to remove IP addresses identified in a `remove_list` variable from the `allow_list.txt` file of approved IP addresses.
+- Opened the `allow_list.txt` file and read its contents.
+- Converted the file contents to a string.
+- Converted the string to a list stored in the `ip_addresses` variable.
+- Iterated through the IP addresses in `remove_list`.
+- For each iteration:
+  - Checked if the IP address was part of the `ip_addresses` list.
+  - If it was, applied the `.remove()` method to remove the IP address from `ip_addresses`.
+- Used the `.join()` method to convert the `ip_addresses` list back into a string.
+- Wrote the revised list of IP addresses back to the `allow_list.txt` file.
